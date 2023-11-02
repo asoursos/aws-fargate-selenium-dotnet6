@@ -1,6 +1,7 @@
 # Selenium in aws fargate with dotnet 6!
 
 This project uses CDK with C# in order to build a standalone container where you can run selenium with dotnet.
+This is ideal for a scheduled fargate task.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
