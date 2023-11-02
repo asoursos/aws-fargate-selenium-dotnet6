@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ChromeStandalone": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

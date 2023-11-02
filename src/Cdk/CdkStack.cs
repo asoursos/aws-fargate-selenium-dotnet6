@@ -19,7 +19,7 @@ public class CdkStack : Stack
         Role taskRole = BuildTaskRole(env);
         Role executionRole = BuildExecutionRole(env);
 
-        var taskProps = new FargateTaskProps(vpc, env, taskRole, executionRole, "../ChromeStandalone");
+        var taskProps = new FargateTaskProps(vpc, env, taskRole, executionRole, "./src/ChromeStandalone");
         var taskDefinition = BuildTaskDefinition(env, taskProps);
         var container = BuildContainer(taskProps, taskDefinition);
         var cluster = BuildCluster(taskProps);
