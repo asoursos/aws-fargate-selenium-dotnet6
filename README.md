@@ -1,6 +1,6 @@
-# Welcome to your CDK C# project!
+# Selenium in aws fargate with dotnet 6!
 
-This is a blank project for CDK development with C#.
+This project uses CDK with C# in order to build a standalone container where you can run selenium with dotnet.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
